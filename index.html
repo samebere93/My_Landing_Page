@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eberechukwu Samuel Anyanwu - Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    header {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    header nav ul li {
+      display: inline;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    main {
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+    #hero {
+      text-align: center;
+    }
+
+    #about-me h2,
+    #projects h2,
+    #contact-me h2 {
+      font-weight: bold;
+    }
+
+    #projects .project {
+      margin-bottom: 20px;
+    }
+
+    #projects .project h3 {
+      margin-bottom: 10px;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .slide {
+      display: none;
+      width: 100%;
+      height: auto;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
+
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 18px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      color: #333;
+      cursor: pointer;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Eberechukwu Samuel Anyanwu</h1>
+      <h2>Software Engineer</h2>
+    </section>
+
+    <section id="about-me">
+  <h2>About Me</h2>
+  <h3>Journey into Tech:</h3>
+  <p>I embarked on a transformative journey into the tech industry driven by my passion for leveraging technology to make a positive impact on people's lives. With a strong desire to use my skills and knowledge to make other people's jobs easier and more productive, I chose to pursue a career as a software engineer. I firmly believe that software engineers are crucial team members for any organization, as they combine technical expertise with strong interpersonal skills to solve complex problems and drive innovation.</p>
+
+  <h3>Skills:</h3>
+  <p>Throughout my journey, I have acquired a diverse set of technical skills that empower me to tackle various challenges. My expertise includes HTML, C programming, Python, and JavaScript. I have honed my skills in these languages through practical projects and continuous learning. In addition to technical proficiency, I also possess strong problem-solving abilities, attention to detail, and effective communication skills. These attributes enable me to approach complex problems with confidence and collaborate effectively with cross-functional teams.</p>
+
+  <h3>Hobbies outside coding:</h3>
+  <p>While I am passionate about technology, I also find balance and inspiration in activities beyond coding. One of my favorite hobbies is playing football, where I not only stay physically active but also cultivate teamwork, discipline, and perseverance. Football has taught me valuable lessons about collaboration, strategy, and maintaining a competitive spirit. Furthermore, I have a deep appreciation for exploring the world through travel. Traveling allows me to immerse myself in diverse cultures, broaden my horizons, and gain fresh perspectives. It fuels my curiosity, enhances my adaptability, and fosters personal growth.</p>
+</section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="image1.jpg" alt="Project Image 1">
+        </div>
+        <div class="slide">
+          <img src="image2.jpg" alt="Project Image 2">
+        </div>
+        <div class="slide">
+          <img src="image3.jpg" alt="Project Image 3">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">Previous</a>
+        <a class="next" onclick="changeSlide(1)">Next</a>
+      </div>
+      <section id="project">
+        <h3>PVC Supplying Ecommerce Website</h3>
+        <p>The PVC Supplying Ecommerce Website is a comprehensive online platform developed using PHP, HTML, JavaScript, CSS, and various frameworks. The purpose of this website is to provide a user-friendly and convenient platform for customers to browse and purchase PVC materials.</p>
+      </section>
+
+      <section id="technologies">
+        <h3>Design and User Interface</h3>
+        <p>The website serves as an online marketplace where users can explore a wide range of PVC products, place orders, and manage their purchases. The core objective is to simplify the process of procuring PVC materials by offering a seamless online experience.</p>
+      </section>
+
+      <section id="challenges">
+        <h3>Technical Details</h3>
+        <p>In this project, PHP is utilized for server-side processing. It handles critical functionalities such as user authentication, order management, and database interactions. HTML, CSS, and JavaScript are combined to create dynamic and interactive web pages. Notably, the Laravel framework was employed for efficient routing and database management, while Bootstrap and jQuery libraries were utilized to enhance responsiveness and interactivity.</p>
+      </section>
+
+      <section id="risks">
+        <h3>Challenges and Solutions</h3>
+        <p>Throughout the development process, several challenges were encountered and overcome. One significant obstacle was integrating the complex inventory management system with the ecommerce platform. Through careful planning and iterative development, a seamless solution was implemented, ensuring accurate stock management and efficient order fulfillment.</p>
+      </section>
+
+      <section id="infrastructure">
+        <h3>Results and Achievements</h3>
+        <p>Since the launch of the PVC Supplying Ecommerce Website, we have observed remarkable success and positive feedback from both customers and stakeholders. The website has significantly streamlined the PVC procurement process, resulting in increased sales and improved customer satisfaction. The platform's user-friendly interface and efficient order management system have played a vital role in achieving these results.</p>
+      </section>
+
+      <section id="game-links">
+        <h3>Project Link</h3>
+        <p>You can view the PVC Supplying Ecommerce Website <a href="http://bfanel.great-site.net/" target="_blank">here</a>.</p>
+      </section>
+    </section>
+
+    <section id="contact-me">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out to me using the contact information below:</p>
+      <ul>
+        <li>Email: anyanwuse@gmail.com</li>
+        <li>Phone: +2348161592255</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/anyanwu-eberechukwu-samuel-83a064160">anyanwu-eberechukwu-samuel-83a064160</a></li>
+      </ul>
+    </section>
+
+    <script>
+      let slideIndex = 0;
+      const slides = document.getElementsByClassName('slide');
+
+      showSlide(slideIndex);
+
+      function changeSlide(n) {
+        showSlide(slideIndex += n);
+      }
+
+      function showSlide(index) {
+        if (index >= slides.length) {
+          slideIndex = 0;
+        } else if (index < 0) {
+          slideIndex = slides.length - 1;
+        }
+
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+
+        slides[slideIndex].style.display = 'block';
+      }
+    </script>
+  </main>
+</body>
+</html>
